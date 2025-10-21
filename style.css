@@ -151,26 +151,35 @@
 }
 
 .macon {
-    margin-left: 8rem;
+    margin-left: 6.5rem;
     margin-top: 4rem;
 }
 
 .marec4 {
     margin-top: 2rem;
+    margin-left: -2rem;
 }
 
 .mafo {
     object-fit: cover;
-    width: 14rem;
-    height: 10rem;
+    width: 16rem;
+    height: 12rem;
 }
 
 .matxt {
-    margin-left: 4rem;
+    margin-left: 5.5rem;
     margin-top: 2rem;
     font-family: Jacques Francois;
 }
 
+.maftak {
+  object-fit: cover;
+  width: 79rem;
+  height: 12rem;
+  margin-top: 10rem;
+}
+
+/* END OF LANDING PAGE */
 
       .judul h1 {
         font-size: 3em;
