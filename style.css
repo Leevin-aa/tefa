@@ -5,9 +5,6 @@
             background-color: #705C53;
             padding: 1rem 0;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            position: fixed;
-            color: #fff;
-            font-size: 1.3rem;
         }
         
         .navbar-brand img {
@@ -252,105 +249,79 @@
       text-align: left;
   }
 
-.Lgallery-section {
-  padding: 50px 0;
-  position: relative;
-  top: -5rem;
+/* === Gaya Umum === */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
 }
 
-.Lcard-custom {
-  border: none;
-  border-radius: 15px;
-  overflow: hidden;
-  background-color: #5a3e3e;
-  color: white;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+/* === Header === */
+.header-jo {
+    background-color: #7d5b4d;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 50px;
 }
 
-.Lcard-custom:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+.logo-jo {
+    font-size: 20px;
+    font-weight: bold;
 }
 
-
-.Lcard-img-wrap {
-  position: relative;
-  overflow: hidden;
-  border-radius: 15px;
+.nav-jo a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
 }
 
-
-.Lcard-img-wrap img {
-  width: 100%;
-  height: 360px; 
-  object-fit: cover;
-  display: block;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+.nav-jo a:hover {
+    text-decoration: underline;
 }
 
-.Lcard-img-wrap::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 30%; 
-  background: linear-gradient(to top, rgba(90, 62, 62, 0.9), rgba(90, 62, 62, 0));
-  pointer-events: none;
+/* === Judul Utama === */
+.judulutama-jo {
+    text-align: center;
+    padding: 40px 20px;
 }
 
-
-.Lcard-body {
-  display: none;
+.judul-box-jo {
+    background: linear-gradient(90deg, #a57a63, #d6b6a1);
+    color: white;
+    width: 400px;
+    margin: 0 auto 20px;
+    border-radius: 20px;
+    padding: 10px 0;
 }
 
-
-@media (max-width: 767px) {
-  .Lcard-img-wrap img {
-    height: 280px; 
-  }
-}
-.satu{
- position:relative;
- top: -3rem;
- left: 2rem;
- font-size: 2rem;
- color: #F5F5F7;
- font-weight: bold;
-
+.deskripsi-jo {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.6;
 }
 
-.dua{
- position:relative;
- top: -3rem;
- left: 2rem;
- font-size: 2rem;
- font-weight: b ;
- color: #F5F5F7;
-
-}
-.tiga{
- position:relative;
- top: -3rem;
- left: 2rem;
- font-weight: bold;
- font-size: 2rem;
- color: #F5F5F7;
-
+/* === Kotak Tradisi === */
+.kotaktradisi-jo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: #ece7e3;
 }
 
+.tradisi-item-jo {
+    text-align: center;
+}
 
-
-/* footer */
-
-
-.Lfooter {
-  background-color: #6b574d; /* warna coklat lembut seperti gambar */
-  color: #fff;
-  padding: 30px 0 0;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+.tradisi-item-jo img {
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .Lfooter-title {
@@ -375,23 +346,29 @@
   cursor: pointer;
 }
 
-.Lfooter-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
-  margin-top: 20px;
-  padding: 10px 0;
-  font-size: 0.85rem;
-  color: #e0e0e0;
+.blok-jo p {
+    width: 50%;
+    line-height: 1.6;
+    text-align: justify;
 }
 
+/* === Footer === */
+.footer-jo {
+    background-color: #7d5b4d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
 
-@media (max-width: 767px) {
-  .Lfooter-title {
-    text-align: center;
-  }
-  .Lfooter-links {
-    text-align: center;
-    margin-top: 10px;
-  }
+.footer-links-jo {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+
+.footer-copy-jo {
+    font-size: 12px;
 }
 
 /* .kesenian{
