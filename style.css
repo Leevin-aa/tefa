@@ -5,6 +5,7 @@
             background-color: #705C53;
             padding: 1rem 0;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            font-size: 1.5rem;
         }
         
         .navbar-brand img {
@@ -250,37 +251,12 @@
       text-align: left;
   }
 
-/* === Gaya Umum === */
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #f8f8f8;
     color: #333;
-}
-
-/* === Header === */
-.header-jo {
-    background-color: #7d5b4d;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 50px;
-}
-
-.logo-jo {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.nav-jo a {
-    color: white;
-    margin-left: 20px;
-    text-decoration: none;
-}
-
-.nav-jo a:hover {
-    text-decoration: underline;
 }
 
 /* === Judul Utama === */
@@ -355,24 +331,6 @@ body {
     text-align: justify;
 }
 
-/* === Footer === */
-.footer-jo {
-    background-color: #7d5b4d;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-.footer-links-jo {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-bottom: 10px;
-}
-
-.footer-copy-jo {
-    font-size: 12px;
-}
 
 /* .kesenian{
         position: absolute;
