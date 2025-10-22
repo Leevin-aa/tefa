@@ -141,22 +141,23 @@
 }
 
 .macon {
-    margin-left: 8rem;
+    margin-left: 6.5rem;
     margin-top: 4rem;
 }
 
 .marec4 {
     margin-top: 2rem;
+    margin-left: -2rem;
 }
 
 .mafo {
     object-fit: cover;
-    width: 14rem;
-    height: 10rem;
+    width: 16rem;
+    height: 12rem;
 }
 
 .matxt {
-    margin-left: 4rem;
+    margin-left: 5.5rem;
     margin-top: 2rem;
     font-family: Jacques Francois;
 }
@@ -246,6 +247,7 @@
       text-align: left;
   }
 
+<<<<<<< HEAD
 .Lgallery-section {
   padding: 50px 0;
   position: relative;
@@ -386,6 +388,130 @@
     text-align: center;
     margin-top: 10px;
   }
+=======
+/* === Gaya Umum === */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* === Header === */
+.header-jo {
+    background-color: #7d5b4d;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 50px;
+}
+
+.logo-jo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-jo a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.nav-jo a:hover {
+    text-decoration: underline;
+}
+
+/* === Judul Utama === */
+.judulutama-jo {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.judul-box-jo {
+    background: linear-gradient(90deg, #a57a63, #d6b6a1);
+    color: white;
+    width: 400px;
+    margin: 0 auto 20px;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+
+.deskripsi-jo {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* === Kotak Tradisi === */
+.kotaktradisi-jo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: #ece7e3;
+}
+
+.tradisi-item-jo {
+    text-align: center;
+}
+
+.tradisi-item-jo img {
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.tradisi-item-jo p {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+/* === Isi Deskripsi === */
+.isi-jo {
+    padding: 30px 80px;
+}
+
+.blok-jo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.blok-jo img {
+    width: 45%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.blok-jo p {
+    width: 50%;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* === Footer === */
+.footer-jo {
+    background-color: #7d5b4d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-links-jo {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+
+.footer-copy-jo {
+    font-size: 12px;
+>>>>>>> 65016282efb4cce44050ea6cb209719f85ae5165
 }
 
 /* .kesenian{
@@ -471,5 +597,9 @@
   }
 
   .element.img{
-    
+  /*
  
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 65016282efb4cce44050ea6cb209719f85ae5165
