@@ -377,62 +377,101 @@
 
 .adit-utama {
     text-align: center;
-    padding: 40px 20px;
+    padding: 75px 20px;
 }
 
 .adit-box-judul {
     background: linear-gradient(90deg, #a57a63, #d6b6a1);
     color: white;
     width: 400px;
-    margin: 0 auto 20px;
+    margin: 0 auto 50px;
     border-radius: 20px;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 
 .deskripsi1 {
-    max-width: 800px;
+    max-width: 1120px;
     margin: 0 auto;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.6;
 }
 
 .kotakAdit{
     display: flex;
     justify-content: center;
-    gap: 20px;
-    padding: 30px;
+    gap: 40px;
+    padding: 40px;
     background-color: #ece7e3;
+    margin-top: 10px;
 }
 
 .kotakTradisi {
     text-align: center;
+    margin-top: 40px;
 }
 
 .kotakTradisi img {
-    width: 180px;
-    height: 130px;
+    width: 225px;
+    height: 170px;
     object-fit: cover;
     border-radius: 8px;
 }
 
 .kotakTradisi p {
-  margin-top: 8px;
+  margin-top: 10px;
     font-weight: bold;
 }
 
 .isi-kotak {
-    padding: 30px 80px;
+    padding: 125px 80px;
 }
 
 .isi-deskripsi {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
-    margin-bottom: 40px;
+    gap: 100px;
+    margin-bottom: 80px;
 }
 
+
+
+.isi-deskripsi img {
+    width: 45%;
+    border-radius: 10px;
+    object-fit: cover;
+    position: relative;
+    left: -4rem;   
+}
+
+.isi-deskripsi2 img {
+    width: 45%;
+    border-radius: 10px;
+    object-fit: cover;
+    position: relative;
+    right: -4rem;   
+}
+
+.isi-deskripsi2 {
+  position: relative;
+  text-align: right;
+}
+
+.isi-deskripsi p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.isi-deskripsi2 p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    position: absolute;
+    text-align: left;
+    left: -3rem;
+    max-width: 30rem;
+}
 
 /* footer */
 
