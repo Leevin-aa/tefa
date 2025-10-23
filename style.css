@@ -363,6 +363,77 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.adit-utama {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.adit-box-judul {
+    background: linear-gradient(90deg, #a57a63, #d6b6a1);
+    color: white;
+    width: 400px;
+    margin: 0 auto 20px;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+
+
+.deskripsi1 {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.kotakAdit{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: #ece7e3;
+}
+
+.kotakTradisi {
+    text-align: center;
+}
+
+.kotakTradisi img {
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.kotakTradisi p {
+  margin-top: 8px;
+    font-weight: bold;
+}
+
+.isi-kotak {
+    padding: 30px 80px;
+}
+
+.isi-deskripsi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+
 /* footer */
 
 
