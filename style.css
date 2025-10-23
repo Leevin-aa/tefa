@@ -220,11 +220,11 @@ margin: 20px 0;
         .hero .title h1{
           text-transform: uppercase;
           color: white;
-          font-size: 5em;
+          font-size: 3rem;
           font-weight: bold;
         }
       .judul h1 {
-        font-size: 3em;
+        font-size: 3rem;
         color: #705C53;
         text-transform: capitalize;
         text-align: center;
@@ -286,7 +286,7 @@ margin: 20px 0;
       background-color: #705C53;
       width: 32rem;
       height: 23.5rem;
-      top: -16.5rem;
+      top: -24.5rem;
       font-size: 1.6rem;
       color: #ffffff;
       text-align: left;
