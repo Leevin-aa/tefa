@@ -34,14 +34,28 @@
         }
 
         
-.mijudul{
+.mifood-card {
+width: 370px; 
+height: 300px;
+background-color: #e4e4e4; 
+border-radius: 10px; 
+padding: 20px;
+position: relative; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+margin: 20px 0;
+}
+.mifood-image {
+    width: 200px; 
+    height: auto;
+    object-fit: cover; 
+    border-radius: 10px; 
+
     position: absolute;
     top: -20px; 
     left: -30px; 
     z-index: 2; 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
-
 .mifood-title {
     position: relative;
     left: 10rem; 
@@ -175,6 +189,7 @@
     object-fit: cover;
     width: 16rem;
     height: 12rem;
+    filter: drop-shadow(1px, 1px, 20px black);
 }
 
 .matxt {
@@ -183,6 +198,10 @@
     font-family: Jacques Francois;
 }
 
+.maftak {
+    margin-top: 10rem;
+    width: 79rem;
+}
 
 
 
@@ -490,7 +509,7 @@
   color: #fff;
   margin-bottom: 10px;
   position: relative;
-  top: 3rem;
+  top: 2rem;
 }
 
 .Lfooter-links li {
