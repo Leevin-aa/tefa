@@ -35,24 +35,24 @@
 
         
 .mifood-card {
-width: 370px; 
-height: 300px;
+width: 300px; 
+height: 320px;
 background-color: #e4e4e4; 
 border-radius: 10px; 
-padding: 20px;
+padding: 15px;
 position: relative; 
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 margin: 20px 0;
 }
 .mifood-image {
-    width: 200px; 
+  box-sizing: content-box;
+    width: 170px; 
     height: auto;
     object-fit: cover; 
     border-radius: 10px; 
-
     position: absolute;
     top: -20px; 
-    left: -30px; 
+    left: -10px; 
     z-index: 2; 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
@@ -61,7 +61,7 @@ margin: 20px 0;
     left: 10rem; 
     z-index: 1; 
     font-family: 'Gilda Display', serif; 
-    font-size: 55px;
+    font-size: 30px;
     line-height: 0.9;
     color: #333;
 }
@@ -82,12 +82,13 @@ margin: 20px 0;
 .mijudul{
   position: absolute;
   top: 17rem;
-  left: 20rem;
+  /* left: 20rem; */
   color: #ffff;
-  font-size: 5rem;
+  font-size: 3.5rem;
   text-align: justify;
 }
 .miboxa{
+  box-sizing: content-box;
     width: 100%;
     height: auto;
     background-color: #F5F5F7;
@@ -100,16 +101,16 @@ margin: 20px 0;
     margin-bottom: 3rem;
 }
 .miboxju p{
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
-.mimage img{
+/* .mimage img{
     position: absolute;
     top:66rem;
     width: 13vw;
     height: auto;
     border-radius: 25px 25px 25px 25px;
     
-}
+} */
 
 
 
